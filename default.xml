@@ -17,11 +17,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="AOSP-S4/android_build" groups="pdk" revsion="jb-4.3" >
+  <project path="build" name="AOSP-S4/android_build" groups="pdk" revision="jb-4.3" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="AOSP-S4/aosp_manifest" revsion="jb-4.3" />
+  <project path="android" name="AOSP-S4/aosp_manifest" revision="jb-4.3" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
