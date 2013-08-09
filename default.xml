@@ -38,7 +38,6 @@
   <project path="device/samsung/jfltexx" name="AOSP-S4/android_device_samsung_jfltexx" groups="pdk" revision="jb-4.3" />
   <project path="device/samsung/msm8960-common" name="AOSP-S4/android_device_samsung_msm8960-common" groups="pdk" revision="jb-4.3" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" groups="pdk" />
-  <project path="kernel/samsung/jf" name="AOSP-S4/android_kernel_samsung_jf" revision="jb-4.3" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
@@ -51,7 +50,7 @@
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/androoid_external_bluetooth_bluedroid" />
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" />
   <project path="external/bsdiff" name="CyanogenMod/android_external_bsdiff" groups="pdk" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -250,6 +249,7 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="frameworks/webview" name="platform/frameworks/webview" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <project path="kernel/samsung/jf" name="AOSP-S4/android_kernel_samsung_jf" revision="jb-4.3" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
