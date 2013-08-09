@@ -34,10 +34,10 @@
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
-  <project path="device/samsung/jf-common" name="AOSP-S4/android_device_jf-common" groups="pdk" revision="jb-4.3" />
-  <project path="device/samsung/jfltexx" name="AOSP-S4/android_device_jfltexx" groups="pdk" revision="jb-4.3" />
-  <project path="device/samsung/msm8960-common" name="AOSP-S4/android_device_msm8960-common" groups="pdk" revision="jb-4.3" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_qcom-common" groups="pdk" />
+  <project path="device/samsung/jf-common" name="AOSP-S4/android_device_samsung_jf-common" groups="pdk" revision="jb-4.3" />
+  <project path="device/samsung/jfltexx" name="AOSP-S4/android_device_samsung_jfltexx" groups="pdk" revision="jb-4.3" />
+  <project path="device/samsung/msm8960-common" name="AOSP-S4/android_device_samsung_msm8960-common" groups="pdk" revision="jb-4.3" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" groups="pdk" />
   <project path="kernel/samsung/jf" name="AOSP-S4/android_kernel_samsung_jf" revision="jb-4.3" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
