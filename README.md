@@ -12,7 +12,7 @@ So it's  possible to use this as your custom ROM base, it's better then CM as ba
 Download:
 - mkdir ~/AOSP
 - cd ~/AOSP
-- repo init -u git://github.com/broodplank/aosp_manifest
+- repo init -u git://github.com/AOSP-S4/aosp_manifest
 - repo sync
  
 
