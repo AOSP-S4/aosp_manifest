@@ -385,6 +385,6 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
-  <project path="vendor/samsung" name="SlimRoms/proprietary_vendor_samsung" revision="jb4.3" />
+  <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" remote="github" revision="cm-10.2" />
+  <project path="vendor/samsung" name="SlimRoms/proprietary_vendor_samsung" remote="github" revision="jb4.3" />
 </manifest>
