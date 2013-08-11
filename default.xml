@@ -16,7 +16,7 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="CyanogenMod/android_bionic" remote="github" revision="cm-10.2" />
+  <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.3" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
