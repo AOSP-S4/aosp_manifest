@@ -21,15 +21,13 @@
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="AOSP-S4/android_dalvik" remote="github" revision="jb-4.3" />
-  <project path="development" name="CyanogenMod/android_development" remote="github" revision="cm-10.2" />
-  <project path="device/common" name="CyanogenMod/android_device_common" remote="github" revision="cm-10.2" />
+  <project path="development" name="AOSP-S4/android_development" remote="github" revision="jb-4.3" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" revision="jb-mr1.1-release" />
   <project path="device/generic/common" name="device/generic/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
   <project path="device/generic/x86" name="device/generic/x86" />
-  <project path="device/sample" name="device/sample" />
   <project path="device/samsung/jf-common" name="AOSP-S4/android_device_samsung_jf-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jfltexx" name="AOSP-S4/android_device_samsung_jfltexx" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/msm8960-common" name="AOSP-S4/android_device_samsung_msm8960-common" groups="pdk" remote="github" revision="jb-4.3" />
@@ -46,20 +44,19 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" revision="jb-mr1.1-release" />
-  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-10.2" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="github" revision="cm-10.2" />
+  <project path="external/bluetooth/bluedroid" name="AOSP-S4/android_external_bluetooth_bluedroid" remote="github" revision="jb-4.3" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.2" />
+  <project path="external/busybox" name="AOSP-S4/android_external_busybox" remote="github" revision="jb-4.3" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="jb-mr1.1-release" />
-  <project path="external/clang" name="CyanogenMod/android_external_clang" remote="github" revision="cm-10.2" />
+  <project path="external/clang" name="AOSP-S4/android_external_clang" remote="github" revision="jb-4.3" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" revision="jb-mr1.1-release" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
@@ -67,7 +64,7 @@
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" remote="github" revision="cm-10.2" />
+  <project path="external/e2fsprogs" name="AOSP-S4/android_external_e2fsprogs" remote="github" revision="jb-4.3" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -76,7 +73,7 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-10.2" />
+  <project path="external/exfat" name="AOSP-S4/android_external_exfat" remote="github" revision="jb-4.3" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fat32lib" name="platform/external/fat32lib" revision="jb-mr1.1-release" />
@@ -84,10 +81,10 @@
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" />
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
-  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-10.2" />
+  <project path="external/fuse" name="AOSP-S4/android_external_fuse" remote="github" revision="jb-4.3" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
-  <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" remote="github" revision="cm-10.2" />
+  <project path="external/genext2fs" name="platform/external/genext2fs" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
@@ -113,7 +110,7 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
-  <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" remote="github" revision="cm-10.2" />
+  <project path="external/kissfft" name="AOSP-S4/android_external_kissfft" remote="github" revision="jb-4.3" />
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-10.2" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-10.2" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
@@ -121,8 +118,8 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-10.2" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="github" revision="cm-10.2" />
+  <project path="external/libncurses" name="AOSP-S4/android_external_libncurses" remote="github" revision="jb-4.3" />
+  <project path="external/libnfc-nci" name="AOSP-S4/android_external_libnfc-nci" remote="github" revision="jb-4.3" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
@@ -142,7 +139,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="CyanogenMod/android_external_llvm" remote="github" revision="cm-10.2" />
+  <project path="external/llvm" name="AOSP-S4/android_external_llvm" remote="github" revision="jb-4.3" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="jb-mr1.1-release" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -188,7 +185,7 @@
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
   <project path="external/sqlite" name="platform/external/sqlite" />
-  <project path="external/srec" name="CyanogenMod/android_external_srec" remote="github" revision="cm-10.2" />
+  <project path="external/srec" name="AOSP-S4/android_external_srec" remote="github" revision="jb-4.3" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" />
   <project path="external/strace" name="platform/external/strace" />
@@ -203,24 +200,24 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="cm-10.2" />
+  <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-10.2" />
+  <project path="external/wpa_supplicant_8" name="AOSP-S4/android_external_wpa_supplicant_8" remote="github" revision="jb-4.3" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="github" revision="cm-10.2" />
-  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="github" revision="cm-10.2" />
+  <project path="external/yaffs2" name="platform/external/yaffs2" />
+  <project path="external/zlib" name="AOSP-S4/android_external_zlib" remote="github" revision="jb-4.3" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOSP-S4/android_frameworks_av" remote="github" revision="jb-4.3" />
   <project path="frameworks/base" name="AOSP-S4/android_frameworks_base" remote="github" revision="jb-4.3" />
-  <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="github" revision="cm-10.2" />
-  <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" remote="github" revision="cm-10.2" />
-  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
+  <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-10.2" />
+  <project path="frameworks/native" name="AOSP-S4/android_frameworks_native" remote="github" revision="jb-4.3" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -231,10 +228,10 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="github" revision="cm-10.2" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="AOSP-S4/android_frameworks_opt_telephony" remote="github" revision="jb-4.3" />
-  <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="github" revision="cm-10.2" />
-  <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" remote="github" revision="cm-10.2" groups="pdk" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/rs" name="AOSP-S4/android_frameworks_rs" remote="github" revision="jb-4.3" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
@@ -267,7 +264,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="github" revision="cm-10.2" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github" revision="cm-10.2" />
-  <project path="libcore" name="CyanogenMod/android_libcore" remote="github" revision="cm-10.2" />
+  <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -370,13 +367,13 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="cm-10.2" />
+  <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="AOSP-S4/android_system_core" groups="pdk" remote="github" revision="jb-4.3" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-10.2" />
+  <project path="system/extras" name="platform/system/extras" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-10.2" />
+  <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-10.2" />
+  <project path="system/vold" name="AOSP-S4/android_system_vold" remote="github" revision="jb-4.3" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -387,6 +384,5 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
-  <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" remote="github" revision="cm-10.2" />
   <project path="vendor/samsung" name="SlimRoms/proprietary_vendor_samsung" remote="github" revision="jb4.3" />
 </manifest>
