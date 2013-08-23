@@ -24,7 +24,6 @@
   <project path="development" name="CyanogenMod/android_development" remote="github" revision="cm-10.2" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="github" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a" revision="jb-mr1.1-release" />
   <project path="device/generic/common" name="device/generic/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/generic/mips" name="device/generic/mips" />
@@ -45,7 +44,6 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
-  <project path="external/astl" name="platform/external/astl" revision="jb-mr1.1-release" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-10.2" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
@@ -58,10 +56,8 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
-  <project path="external/cibu-fonts" name="platform/external/cibu-fonts" revision="jb-mr1.1-release" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" remote="github" revision="cm-10.2" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
-  <project path="external/dbus" name="platform/external/dbus" revision="jb-mr1.1-release" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
@@ -79,7 +75,6 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-10.2" />
   <project path="external/expat" name="platform/external/expat" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/fat32lib" name="platform/external/fat32lib" revision="jb-mr1.1-release" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" />
   <project path="external/freetype" name="platform/external/freetype" />
@@ -128,7 +123,7 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" />
+  <project path="external/libpng" name="CyanogenMod/android_external_libpng" remote="github" revision="cm-10.2" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
@@ -143,11 +138,9 @@
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" remote="github" revision="cm-10.2" />
-  <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="jb-mr1.1-release" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" />
-  <project path="external/mesa3d" name="platform/external/mesa3d" revision="jb-mr1.1-release" />
   <project path="external/mksh" name="platform/external/mksh" />
   <project path="external/mockito" name="platform/external/mockito" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" />
@@ -214,8 +207,8 @@
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOSP-S4/android_frameworks_av" remote="github" revision="jb-4.3" />
   <project path="frameworks/base" name="AOSP-S4/android_frameworks_base" remote="github" revision="jb-4.3" />
-  <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" remote="github" revision="cm-10.2" />
-  <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" remote="github" revision="cm-10.2" />
+  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
+  <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
@@ -231,9 +224,9 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" remote="github" revision="cm-10.2" />
+  <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="AOSP-S4/android_frameworks_opt_telephony" remote="github" revision="jb-4.3" />
-  <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="github" revision="cm-10.2" />
+  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" remote="github" revision="cm-10.2" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
