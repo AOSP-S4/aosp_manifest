@@ -226,7 +226,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/telephony" name="AOSP-S4/android_frameworks_opt_telephony" remote="github" revision="jb-4.3" />
-  <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
+  <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="github" revision="cm-10.2" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" remote="github" revision="cm-10.2" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
