@@ -39,7 +39,7 @@
   <project path="device/samsung/jfltecan" name="AOSP-S4/android_device_samsung_jfltecan" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jflteatt" name="AOSP-S4/android_device_samsung_jflteatt" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/jfltecri" name="AOSP-S4/android_device_samsung_jfltecri" groups="pdk" remote="github" revision="jb-4.3" />
-  <project path="device/samsung/i9500" name="intervigilium/android_device_samsung_i9500" groups="pdk" remote="github" revision="cm-10.2" />
+  <project path="device/samsung/i9500" name="AOSP-S4/android_device_samsung_i9500" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/msm8960-common" name="AOSP-S4/android_device_samsung_msm8960-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="device/samsung/qcom-common" name="AOSP-S4/android_device_samsung_qcom-common" groups="pdk" remote="github" revision="jb-4.3" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
