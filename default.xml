@@ -111,7 +111,7 @@
   <project path="external/jhead" name="platform/external/jhead" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="AOSP-S4/android_external_jpeg" remote="github" revision="jb-4.3" />
+  <project path="external/jpeg" name="platform/external/jpeg" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -131,7 +131,7 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="AOSP-S4/android_external_libpng" remote="github" revision="jb-4.3" />
+  <project path="external/libpng" name="platform/external/libpng" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="AOSP-S4/android_external_libselinux" remote="github" revision="jb-4.3" />
   <project path="external/libsepol" name="AOSP-S4/android_external_libsepol" remote="github" revision="jb-4.3" />
@@ -211,7 +211,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="AOSP-S4/android_external_yaffs2" remote="github" revision="jb-4.3" />
-  <project path="external/zlib" name="AOSP-S4/android_external_zlib" remote="github" revision="jb-4.3" />
+  <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOSP-S4/android_frameworks_av" remote="github" revision="jb-4.3" />
   <project path="frameworks/base" name="AOSP-S4/android_frameworks_base" remote="github" revision="jb-4.3" />
@@ -242,7 +242,6 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="kernel/samsung/jf" name="AOSP-S4/android_kernel_samsung_jf" remote="github" revision="jb-4.3" />
-  <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-10.2" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
