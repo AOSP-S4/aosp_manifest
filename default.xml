@@ -355,5 +355,5 @@
   <project path="system/vold" name="platform/system/vold" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="vendor/qcom/opensource/v8" name="AOSP-S4/android_vendor_qcom_opensource_v8" remote="github" revision="jb-4.3" />
-  <project path="vendor/samsung" name="SlimRoms/proprietary_vendor_samsung" remote="github" revision="jb4.3" />
+  <project path="vendor/samsung" name="AOSP-S4/android_vendor_samsung" remote="github" revision="jb-4.3" />
 </manifest>
