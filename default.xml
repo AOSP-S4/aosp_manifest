@@ -16,7 +16,7 @@
            sync-j="4" />
 
 
-  <project path="build" name="AOSP-S4/android_build" remote="github" revision="jb-4.3" >
+  <project path="build" name="AOSP-S4/android_build" remote="github" revision="jb-4.3_linaro" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build.sh" dest="build.sh" />
   </project>
