@@ -1,5 +1,4 @@
 AOSP 4.3 FOR I9505 (Galaxy S4)
-BETA
 ===============================
 
 
@@ -14,7 +13,11 @@ Download:
 
 Building:
 ----------
-* ./build.sh
+* . build/envsetup.sh
+* lunch 
+* make otapackage -j5 
+
+(where 5 is the number of cpu cores + 1)
 
 
 
