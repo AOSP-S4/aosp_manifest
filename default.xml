@@ -239,7 +239,7 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" remote="github" revision="cm-10.2" />
+  <project path="hardware/qcom/display-caf" name="AOSP-S4/android_hardware_qcom_display-caf" groups="caf" remote="github" revision="jb-4.3" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" groups="qcom" remote="github" revision="jb4.3" />
