@@ -17,7 +17,6 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.3" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
@@ -67,8 +66,6 @@
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="AOSP-S4/android_external_e2fsprogs" remote="github" revision="jb-4.3" />
   <project path="external/easymock" name="platform/external/easymock" />
-  <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
-  <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
   <project path="external/eigen" name="platform/external/eigen" />
   <project path="external/elfutils" name="platform/external/elfutils" />
   <project path="external/embunit" name="platform/external/embunit" />
@@ -170,7 +167,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
-  <project path="external/sepolicy" name="AOSP-S4/android_external_sepolicy" remote="github" revision="jb-4.3" />
+  <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/skia" name="platform/external/skia" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
@@ -230,26 +227,24 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="kernel/samsung/jf" name="AOSP-S4/android_kernel_samsung_jf" remote="github" revision="jb-4.3" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-10.2" />
+  <project path="hardware/broadcom/libbt" name="AOSP-S4/android_hardware_broadcom_libbt" remote="github" revision="jb-4.3" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="AOSP-S4/android_hardware_libhardware" remote="github" revision="jb-4.3" />
   <project path="hardware/libhardware_legacy" name="AOSP-S4/android_hardware_libhardware_legacy" remote="github" revision="jb-4.3" />
-  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" remote="github" revision="cm-10.2" />
+  <project path="hardware/qcom/audio" name="AOSP-S4/android_hardware_qcom_audio" groups="qcom" remote="github" revision="jb-4.3" />
+  <project path="hardware/qcom/audio-caf" name="AOSP-S4/android_hardware_qcom_audio-caf" groups="caf" remote="github" revision="jb-4.3" />
+  <project path="hardware/qcom/bt" name="AOSP-S4/android_hardware_qcom_bt" groups="qcom" remote="github" revision="jb-4.3" />
+  <project path="hardware/qcom/display" name="AOSP-S4/android_hardware_qcom_display" groups="qcom" remote="github" revision="jb-4.3" />
   <project path="hardware/qcom/display-caf" name="AOSP-S4/android_hardware_qcom_display-caf" groups="caf" remote="github" revision="jb-4.3" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" groups="qcom" remote="github" revision="jb4.3" />
+  <project path="hardware/qcom/gps" name="AOSP-S4/android_hardware_qcom_gps" groups="qcom" remote="github" revision="jb-4.3" />
+  <project path="hardware/qcom/keymaster" name="AOSP-S4/android_hardware_qcom_keymaster" groups="qcom" remote="github" revision="jb-4.3" />
+  <project path="hardware/qcom/media" name="AOSP-S4/android_hardware_qcom_media" groups="qcom" remote="github" revision="jb-4.3" />
   <project path="hardware/qcom/media-caf" name="AOSP-S4/android_hardware_qcom_media-caf" groups="caf" remote="github" revision="jb-4.3" />
-  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="github" revision="cm-10.2" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-10.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
+  <project path="hardware/qcom/msm8960" name="AOSP-S4/android_hardware_qcom_msm8960" groups="qcom_msm8960" remote="github" revision="jb-4.3" />
+  <project path="hardware/qcom/power" name="AOSP-S4/android_hardware_qcom_power" remote="github" revision="jb-4.3" />
+  <project path="hardware/qcom/wlan" name="AOSP-S4/android_hardware_qcom_wlan" remote="github" revision="jb-4.3" />
+  <project path="hardware/ril" name="AOSP-S4/android_hardware_ril" remote="github" revision="jb-4.3" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -315,7 +310,6 @@
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
-  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
