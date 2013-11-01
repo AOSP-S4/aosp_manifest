@@ -3,7 +3,7 @@
 
   <remote name="aosp"
            fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/android-4.3.1_r1"
+  <default revision="refs/tags/android-4.4_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -11,7 +11,7 @@
            fetch="git://github.com/" />
 
 
-  <project path="build" name="AOSP-S4/android_build" remote="github" revision="jb-4.3" >
+  <project path="build" name="AOSP-S4/android_build" remote="github" revision="jb-4.4" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="build.sh" dest="build.sh" />
   </project>
@@ -124,7 +124,6 @@
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
   <project path="external/libusb" name="platform/external/libusb" />
-  <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
   <project path="external/libvpx" name="platform/external/libvpx" />
@@ -158,8 +157,6 @@
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" />
-  <project path="external/ping" name="platform/external/ping" />
-  <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" />
   <project path="external/protobuf" name="platform/external/protobuf" />
@@ -189,7 +186,6 @@
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="platform/external/webkit" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
@@ -290,7 +286,6 @@
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
-  <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" />
