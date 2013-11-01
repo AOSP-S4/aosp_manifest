@@ -16,7 +16,7 @@
     <copyfile src="build.sh" dest="build.sh" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.3" />
+  <project path="bionic" name="AOSP-S4/android_bionic" remote="github" revision="jb-4.4" />
   <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
