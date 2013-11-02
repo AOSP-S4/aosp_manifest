@@ -1,14 +1,13 @@
-AOSP 4.3 FOR I9505 (Galaxy S4)
-BETA
+AOSP 4.4 FOR I9505 (Galaxy S4)
+ALPHA
 ===============================
-
 
 
 Download:
 ----------
 * mkdir ~/AOSP
 * cd ~/AOSP
-* repo init -u git://github.com/AOSP-S4/aosp_manifest -b jb-4.3
+* repo init -u git://github.com/AOSP-S4/aosp_manifest -b kk-4.4
 * repo sync
 
 
